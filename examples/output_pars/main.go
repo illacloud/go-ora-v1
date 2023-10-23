@@ -4,10 +4,11 @@ import (
 	"database/sql"
 	"flag"
 	"fmt"
-	_ "github.com/sijms/go-ora/v2"
 	"os"
 	"strings"
 	"time"
+
+	_ "github.com/illacloud/go-ora-v1/v2"
 )
 
 func createTable(conn *sql.DB) error {

@@ -7,10 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sijms/go-ora/converters"
-	"github.com/sijms/go-ora/network"
 	"regexp"
 	"strings"
+
+	"github.com/illacloud/go-ora-v1/converters"
+	"github.com/illacloud/go-ora-v1/network"
 )
 
 type StmtType int
@@ -1215,9 +1216,9 @@ func (stmt *Stmt) AddRefCursorParam(_ string) {
 //	stmt.Pars = append(stmt.Pars, param)
 //}
 
-//func (stmt *Stmt) reExec() (driver.Rows, error) {
+// func (stmt *Stmt) reExec() (driver.Rows, error) {
 //
-//}
+// }
 func (stmt *Stmt) Query(args []driver.Value) (driver.Rows, error) {
 	stmt.connection.connOption.Tracer.Printf("Query:\n%s", stmt.text)
 	stmt._noOfRowsToFetch = stmt.connection.connOption.PrefetchRows

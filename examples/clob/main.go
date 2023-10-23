@@ -5,12 +5,13 @@ import (
 	"database/sql"
 	"flag"
 	"fmt"
-	_ "github.com/sijms/go-ora/v2"
-	go_ora "github.com/sijms/go-ora/v2"
 	"io/ioutil"
 	"os"
 	"strings"
 	"time"
+
+	_ "github.com/illacloud/go-ora-v1/v2"
+	go_ora "github.com/illacloud/go-ora-v1/v2"
 )
 
 var (

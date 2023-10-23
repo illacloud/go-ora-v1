@@ -4,7 +4,8 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/sijms/go-ora/network"
+
+	"github.com/illacloud/go-ora-v1/network"
 )
 
 type TCPNego struct {

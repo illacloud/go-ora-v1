@@ -11,10 +11,11 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/sijms/go-ora/network"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/illacloud/go-ora-v1/network"
 )
 
 // E infront of the variable means encrypted

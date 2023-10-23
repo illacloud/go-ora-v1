@@ -3,7 +3,8 @@ package advanced_nego
 import (
 	"encoding/binary"
 	"errors"
-	"github.com/sijms/go-ora/advanced_nego/ntlmssp"
+
+	"github.com/illacloud/go-ora-v1/advanced_nego/ntlmssp"
 )
 
 type NTSAuthInterface interface {

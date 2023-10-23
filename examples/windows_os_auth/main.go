@@ -4,8 +4,9 @@ import (
 	"database/sql"
 	"flag"
 	"fmt"
-	go_ora "github.com/sijms/go-ora/v2"
 	"os"
+
+	go_ora "github.com/illacloud/go-ora-v1/v2"
 )
 
 func usage() {
