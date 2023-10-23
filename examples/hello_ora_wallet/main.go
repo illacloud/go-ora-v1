@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"os"
 
-	_ "github.com/illacloud/go-ora-v1/v2"
+	_ "github.com/illacloud/go-ora-v1"
 )
 
 func dieOnError(msg string, err error) {

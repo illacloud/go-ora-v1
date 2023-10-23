@@ -14,7 +14,7 @@ import (
 	"strings"
 	"text/template"
 
-	_ "github.com/illacloud/go-ora-v1/v2"
+	_ "github.com/illacloud/go-ora-v1"
 )
 
 var testValues = []struct {

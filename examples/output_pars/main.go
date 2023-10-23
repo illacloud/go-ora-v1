@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	_ "github.com/illacloud/go-ora-v1/v2"
+	_ "github.com/illacloud/go-ora-v1"
 )
 
 func createTable(conn *sql.DB) error {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	go_ora "github.com/illacloud/go-ora-v1/v2"
+	go_ora "github.com/illacloud/go-ora-v1"
 )
 
 var server string

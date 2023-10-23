@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	_ "github.com/illacloud/go-ora-v1/v2"
+	_ "github.com/illacloud/go-ora-v1"
 )
 
 func main() {

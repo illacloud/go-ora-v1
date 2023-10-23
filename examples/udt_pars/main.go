@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	go_ora "github.com/illacloud/go-ora-v1/v2"
+	go_ora "github.com/illacloud/go-ora-v1"
 )
 
 type test1 struct {
