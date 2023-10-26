@@ -1,4 +1,4 @@
-package go_ora_test
+package go_ora_v1_test
 
 import (
 	"database/sql"
