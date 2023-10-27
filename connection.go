@@ -1,8 +1,7 @@
-package go_ora_v1
+package go_ora
 
 import (
 	"context"
-	"database/sql"
 	"database/sql/driver"
 	"errors"
 	"fmt"
@@ -71,9 +70,11 @@ type OracleConnector struct {
 	connectString string
 }
 
-func init() {
-	sql.Register("oracle", &OracleDriver{})
-}
+// we have already register by go-ora official lib
+
+//	func init() {
+//		sql.Register("oracle", &OracleDriver{})
+//	}
 func (drv *OracleDriver) OpenConnector(name string) (driver.Connector, error) {
 
 	return &OracleConnector{drv: drv, connectString: name}, nil
